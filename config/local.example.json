@@ -1,0 +1,10 @@
+{
+  "service": {
+    "port": "5000"
+  },
+  "email": {
+    "recipient": "email of the receiving person",
+    "user": "your gmail sender account",
+    "password": "your gmail sender password"
+  }
+}

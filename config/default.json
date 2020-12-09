@@ -1,0 +1,10 @@
+{
+  "service": {
+    "port": "5000"
+  },
+  "email": {
+    "recipient": "",
+    "user": "",
+    "password": ""
+  }
+}

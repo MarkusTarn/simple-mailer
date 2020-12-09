@@ -1,0 +1,19 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "Service to send mailer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "watch": "pm2 start --env production --name mailer ./app.js --watch ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Markus Tarn",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.16"
+  }
+}
