@@ -1,4 +1,5 @@
 # Simple Mailer
+Stand alone express wrapper for nodemailer
 > For people who enjoy the simpler things in life! 😉
 
 ## Requirements
