@@ -3,9 +3,9 @@ const nodemailer = require('nodemailer')
 const config = require('config')
 const bodyParser = require('body-parser')
 const { port } = config.get('service')
-const { user, password: pass, recipient } = config.get('email')
+const { user, password, recipient } = config.get('email')
 
-const transporter = nodemailer.createTransport({ service: 'gmail', auth: { user, pass } })
+const transporter = nodemailer.createTransport({ service: 'gmail', auth: { user, password } })
 const app = express()
 
 /* Set up dependencies */
